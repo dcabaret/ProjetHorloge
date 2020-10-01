@@ -1,0 +1,27 @@
+\hypertarget{cadran_8cpp}{}\section{Référence du fichier cadran.\+cpp}
+\label{cadran_8cpp}\index{cadran.\+cpp@{cadran.\+cpp}}
+
+
+Déclaration de la classe \hyperlink{class_cadran}{Cadran}.  
+
+
+{\ttfamily \#include \char`\"{}cadran.\+h\char`\"{}}\newline
+Graphe des dépendances par inclusion de cadran.\+cpp\+:
+% FIG 0
+
+
+\subsection{Description détaillée}
+Déclaration de la classe \hyperlink{class_cadran}{Cadran}. 
+
+\begin{DoxyAuthor}{Auteur}
+\+: Philippe Cruchet 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+\+: 24/08/2020  \+: Assure la gestion d\textquotesingle{}un \hyperlink{class_cadran}{Cadran} en Mode texte à partir des séquences d’échappement A\+N\+SI
+\end{DoxyDate}
+\begin{DoxyAuthor}{Auteur}
+Damien C\+A\+B\+A\+R\+ET 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+01/10/2020 
+\end{DoxyDate}

@@ -1,0 +1,206 @@
+\hypertarget{class_cadran}{}\section{Référence de la classe Cadran}
+\label{class_cadran}\index{Cadran@{Cadran}}
+
+
+{\ttfamily \#include $<$cadran.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cadran_a404433296315584a9aae88da868b224d}{Cadran} (const int \+\_\+posX=1, const int \+\_\+posY=1, const int \+\_\+hauteur=1, const int \+\_\+largeur=7, const int \+\_\+couleur\+Texte=33, const int \+\_\+couleur\+Fond=42)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_a404433296315584a9aae88da868b224d}{Cadran\+::\+Cadran}. \end{DoxyCompactList}\item 
+\hyperlink{class_cadran_ae710cda2ec2d5b84d33599a9dc37893b}{$\sim$\+Cadran} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_ae710cda2ec2d5b84d33599a9dc37893b}{Cadran\+::$\sim$\+Cadran}. \end{DoxyCompactList}\item 
+void \hyperlink{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}{Afficher} (const string \+\_\+texte, const int \+\_\+position=0, const int \+\_\+ligne=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}{Cadran\+::\+Afficher}. \end{DoxyCompactList}\item 
+void \hyperlink{class_cadran_aed8613bcdc6d30cf52d99c059ae0b770}{Afficher} (const int \+\_\+valeur, const int \+\_\+position=0, const int \+\_\+ligne=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}{Cadran\+::\+Afficher}. \end{DoxyCompactList}\item 
+void \hyperlink{class_cadran_ae0241c088e1b351fb8bcbd2c6436cac9}{Effacer} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_ae0241c088e1b351fb8bcbd2c6436cac9}{Cadran\+::\+Effacer}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_cadran_aad5b68b6c93bfba09b0903eb7faacc9b}{Positionner\+Curseur} (const int \+\_\+posx, const int \+\_\+posy)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cadran_aad5b68b6c93bfba09b0903eb7faacc9b}{Cadran\+::\+Positionner\+Curseur}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_cadran_a4b753893bf4f7bb4b61018544ddb2450}{posX}
+\item 
+int \hyperlink{class_cadran_a9fe9e082e2421e00d044598765adcdeb}{posY}
+\begin{DoxyCompactList}\small\item\em coordonnée en X du premier caractère dans le cadran \end{DoxyCompactList}\item 
+int \hyperlink{class_cadran_a18a3e6147ef0d98e8f556b7a590c753e}{hauteur}
+\begin{DoxyCompactList}\small\item\em coordonnée en Y du premier caractère dans le cadran \end{DoxyCompactList}\item 
+int \hyperlink{class_cadran_a6c930bf327a38424afe4cb0ce75c0650}{largeur}
+\begin{DoxyCompactList}\small\item\em nombre de lignes du cadran \end{DoxyCompactList}\item 
+int \hyperlink{class_cadran_a2070501e183ca1fb9c495a6ba878a97e}{couleur\+Texte}
+\begin{DoxyCompactList}\small\item\em nombre de caractères par ligne \end{DoxyCompactList}\item 
+int \hyperlink{class_cadran_a2d7643e20b61690fc575421543757c7c}{couleur\+Fond}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_cadran_a404433296315584a9aae88da868b224d}\label{class_cadran_a404433296315584a9aae88da868b224d}} 
+\index{Cadran@{Cadran}!Cadran@{Cadran}}
+\index{Cadran@{Cadran}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{Cadran()}{Cadran()}}
+{\footnotesize\ttfamily Cadran\+::\+Cadran (\begin{DoxyParamCaption}\item[{const int}]{\+\_\+posX = {\ttfamily 1},  }\item[{const int}]{\+\_\+posY = {\ttfamily 1},  }\item[{const int}]{\+\_\+hauteur = {\ttfamily 1},  }\item[{const int}]{\+\_\+largeur = {\ttfamily 7},  }\item[{const int}]{\+\_\+couleur\+Texte = {\ttfamily 33},  }\item[{const int}]{\+\_\+couleur\+Fond = {\ttfamily 42} }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_cadran_a404433296315584a9aae88da868b224d}{Cadran\+::\+Cadran}. 
+
+\+: Constructeur de la classe \hyperlink{class_cadran}{Cadran}, initialise et trace le contour du cadran 
+\begin{DoxyParams}{Paramètres}
+{\em \+\_\+posX} & \+: Coordonnée en X du coin gauche du cadran \\
+\hline
+{\em \+\_\+posY} & \+: Coordonnée en Y du coin gauche du cadran \\
+\hline
+{\em \+\_\+hauteur} & \+: Nombre de lignes d\textquotesingle{}affichage du cadran \\
+\hline
+{\em \+\_\+largeur} & \+: Nombre de caractères par ligne \\
+\hline
+{\em \+\_\+couleur\+Texte} & \+: Couleur du texte \\
+\hline
+{\em \+\_\+couleur\+Texte} & \+: Couleur du fond \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cadran_ae710cda2ec2d5b84d33599a9dc37893b}\label{class_cadran_ae710cda2ec2d5b84d33599a9dc37893b}} 
+\index{Cadran@{Cadran}!````~Cadran@{$\sim$\+Cadran}}
+\index{````~Cadran@{$\sim$\+Cadran}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{$\sim$\+Cadran()}{~Cadran()}}
+{\footnotesize\ttfamily Cadran\+::$\sim$\+Cadran (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_cadran_ae710cda2ec2d5b84d33599a9dc37893b}{Cadran\+::$\sim$\+Cadran}. 
+
+\+: Destructeur de la classe restitue le contexte de l\textquotesingle{}application 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}\label{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}} 
+\index{Cadran@{Cadran}!Afficher@{Afficher}}
+\index{Afficher@{Afficher}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{Afficher()}{Afficher()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Cadran\+::\+Afficher (\begin{DoxyParamCaption}\item[{const string}]{\+\_\+texte,  }\item[{const int}]{\+\_\+position = {\ttfamily 0},  }\item[{const int}]{\+\_\+ligne = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}{Cadran\+::\+Afficher}. 
+
+\+: Affiche un texte à une position donnée sur l\textquotesingle{}écran 
+\begin{DoxyParams}{Paramètres}
+{\em \+\_\+texte} & \+: Texte à afficher dans le cadran \\
+\hline
+{\em \+\_\+position} & \+: Position du premier caractère par défaut 0 pour le premier caractère \\
+\hline
+{\em \+\_\+ligne} & \+: La ligne sur laquelle seront écrit les caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cadran_aed8613bcdc6d30cf52d99c059ae0b770}\label{class_cadran_aed8613bcdc6d30cf52d99c059ae0b770}} 
+\index{Cadran@{Cadran}!Afficher@{Afficher}}
+\index{Afficher@{Afficher}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{Afficher()}{Afficher()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Cadran\+::\+Afficher (\begin{DoxyParamCaption}\item[{const int}]{\+\_\+valeur,  }\item[{const int}]{\+\_\+position = {\ttfamily 0},  }\item[{const int}]{\+\_\+ligne = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_cadran_a260c1d98132eafc7a1d8b9065c2bc172}{Cadran\+::\+Afficher}. 
+
+\+: Affiche une valeur entière sur 2 caractères à une position donnée dans le cadran 
+\begin{DoxyParams}{Paramètres}
+{\em \+\_\+valeur} & \+: Entier à afficher \\
+\hline
+{\em \+\_\+position} & \+: Position du premier caractère par défaut 0 pour le premier caractère \\
+\hline
+{\em \+\_\+ligne} & \+: La ligne sur laquelle seront écrit les caracteres \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_cadran_ae0241c088e1b351fb8bcbd2c6436cac9}\label{class_cadran_ae0241c088e1b351fb8bcbd2c6436cac9}} 
+\index{Cadran@{Cadran}!Effacer@{Effacer}}
+\index{Effacer@{Effacer}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{Effacer()}{Effacer()}}
+{\footnotesize\ttfamily void Cadran\+::\+Effacer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{class_cadran_ae0241c088e1b351fb8bcbd2c6436cac9}{Cadran\+::\+Effacer}. 
+
+\+: Efface ce qui est affiché dans le cadran \mbox{\Hypertarget{class_cadran_aad5b68b6c93bfba09b0903eb7faacc9b}\label{class_cadran_aad5b68b6c93bfba09b0903eb7faacc9b}} 
+\index{Cadran@{Cadran}!Positionner\+Curseur@{Positionner\+Curseur}}
+\index{Positionner\+Curseur@{Positionner\+Curseur}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{Positionner\+Curseur()}{PositionnerCurseur()}}
+{\footnotesize\ttfamily void Cadran\+::\+Positionner\+Curseur (\begin{DoxyParamCaption}\item[{const int}]{\+\_\+posx,  }\item[{const int}]{\+\_\+posy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\hyperlink{class_cadran_aad5b68b6c93bfba09b0903eb7faacc9b}{Cadran\+::\+Positionner\+Curseur}. 
+
+\+: Positionne le curseur sur l\textquotesingle{}écran de l\textquotesingle{}ordinateur 
+\begin{DoxyParams}{Paramètres}
+{\em \+\_\+posx} & \+: Coordonnée en X \\
+\hline
+{\em \+\_\+posy} & \+: Coordonnée en Y \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_cadran_a2d7643e20b61690fc575421543757c7c}\label{class_cadran_a2d7643e20b61690fc575421543757c7c}} 
+\index{Cadran@{Cadran}!couleur\+Fond@{couleur\+Fond}}
+\index{couleur\+Fond@{couleur\+Fond}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{couleur\+Fond}{couleurFond}}
+{\footnotesize\ttfamily int Cadran\+::couleur\+Fond\hspace{0.3cm}{\ttfamily [private]}}
+
+Couleur du fond \mbox{\Hypertarget{class_cadran_a2070501e183ca1fb9c495a6ba878a97e}\label{class_cadran_a2070501e183ca1fb9c495a6ba878a97e}} 
+\index{Cadran@{Cadran}!couleur\+Texte@{couleur\+Texte}}
+\index{couleur\+Texte@{couleur\+Texte}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{couleur\+Texte}{couleurTexte}}
+{\footnotesize\ttfamily int Cadran\+::couleur\+Texte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+nombre de caractères par ligne 
+
+Couleur du texte \mbox{\Hypertarget{class_cadran_a18a3e6147ef0d98e8f556b7a590c753e}\label{class_cadran_a18a3e6147ef0d98e8f556b7a590c753e}} 
+\index{Cadran@{Cadran}!hauteur@{hauteur}}
+\index{hauteur@{hauteur}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{hauteur}{hauteur}}
+{\footnotesize\ttfamily int Cadran\+::hauteur\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+coordonnée en Y du premier caractère dans le cadran 
+
+nombre de lignes du cadran \mbox{\Hypertarget{class_cadran_a6c930bf327a38424afe4cb0ce75c0650}\label{class_cadran_a6c930bf327a38424afe4cb0ce75c0650}} 
+\index{Cadran@{Cadran}!largeur@{largeur}}
+\index{largeur@{largeur}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{largeur}{largeur}}
+{\footnotesize\ttfamily int Cadran\+::largeur\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+nombre de lignes du cadran 
+
+nombre de caractères par ligne \mbox{\Hypertarget{class_cadran_a4b753893bf4f7bb4b61018544ddb2450}\label{class_cadran_a4b753893bf4f7bb4b61018544ddb2450}} 
+\index{Cadran@{Cadran}!posX@{posX}}
+\index{posX@{posX}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{posX}{posX}}
+{\footnotesize\ttfamily int Cadran\+::posX\hspace{0.3cm}{\ttfamily [private]}}
+
+coordonnée en X du premier caractère dans le cadran \mbox{\Hypertarget{class_cadran_a9fe9e082e2421e00d044598765adcdeb}\label{class_cadran_a9fe9e082e2421e00d044598765adcdeb}} 
+\index{Cadran@{Cadran}!posY@{posY}}
+\index{posY@{posY}!Cadran@{Cadran}}
+\subsubsection{\texorpdfstring{posY}{posY}}
+{\footnotesize\ttfamily int Cadran\+::posY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+coordonnée en X du premier caractère dans le cadran 
+
+coordonnée en Y du premier caractère dans le cadran 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{cadran_8h}{cadran.\+h}\item 
+\hyperlink{cadran_8cpp}{cadran.\+cpp}\end{DoxyCompactItemize}
